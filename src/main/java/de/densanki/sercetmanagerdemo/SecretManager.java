@@ -1,4 +1,5 @@
-import com.amazonaws.client.builder.AwsClientBuilder;
+package de.densanki.sercetmanagerdemo;
+
 import com.amazonaws.services.secretsmanager.AWSSecretsManager;
 import com.amazonaws.services.secretsmanager.AWSSecretsManagerClientBuilder;
 import com.amazonaws.services.secretsmanager.model.GetSecretValueRequest;

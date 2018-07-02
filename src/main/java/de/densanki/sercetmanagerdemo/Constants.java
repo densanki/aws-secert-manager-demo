@@ -1,3 +1,5 @@
+package de.densanki.sercetmanagerdemo;
+
 import com.amazonaws.regions.Regions;
 
 public class Constants {

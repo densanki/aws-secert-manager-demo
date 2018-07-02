@@ -1,3 +1,5 @@
+package de.densanki.sercetmanagerdemo;
+
 import java.io.IOException;
 
 public class Main {
@@ -8,7 +10,6 @@ public class Main {
     } catch (Exception e) {
       e.printStackTrace();
     }
-
 
   }
 }
