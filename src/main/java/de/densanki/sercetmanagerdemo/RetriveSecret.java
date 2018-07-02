@@ -5,7 +5,7 @@ import com.amazonaws.services.secretsmanager.AWSSecretsManagerClientBuilder;
 import com.amazonaws.services.secretsmanager.model.GetSecretValueRequest;
 import com.amazonaws.services.secretsmanager.model.GetSecretValueResult;
 
-public class SecretManager {
+public class RetriveSecret {
 
   public static void run() {
     AWSSecretsManager awsSecretsManager = AWSSecretsManagerClientBuilder.standard().withRegion(Constants.DEFAULT_REGION).build();
@@ -20,8 +20,6 @@ public class SecretManager {
     stringBuilder.append("Secret Value=" + getSecretValueResult.getSecretString() + Constants.NL);
 
     System.out.println(stringBuilder.toString());
-
-
   }
 
 }

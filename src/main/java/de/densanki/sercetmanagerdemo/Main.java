@@ -6,7 +6,8 @@ public class Main {
   public static void main(String[] args) throws IOException {
 
     try {
-      SecretManager.run();
+      //RetriveSecret.run();
+      ListSecrets.run();
     } catch (Exception e) {
       e.printStackTrace();
     }

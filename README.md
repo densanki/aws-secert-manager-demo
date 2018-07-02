@@ -13,6 +13,6 @@ https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/credentials.html
 # Start run the programm
 
 ```
-export AWS_PROFILE="aws_profile"
+export AWS_PROFILE="<aws_profile>"
 mvn exec:java
 ```
